@@ -1,0 +1,38 @@
+# Ignorar arquivos temporarios do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de compilação do PyInstaller
+build/
+dist/
+*.spec
+
+# Segredos e dados locais. Nunca vão para o repositório.
+.env
+.env.*
+!.env.example
+settings.json
+settings_*.json
+contas/
+
+# Ignorar logs de erro gerados localmente
+*.log
+debug*.log
+
+# Ignorar pastas ocultas do sistema/editores
+.vscode/
+.idea/
+.claude/
+.gemini/
+
+# Pastas de teste e de rascunho. Ficam só nesta máquina.
+docs/
+testes/
+tmp/
+
+# Histórico, métricas e painéis gerados na execução
+automacao_linkedin/historico_metricas*.json
+automacao_linkedin/respondidos_history*.json
+automacao_linkedin/metricas_dashboard*.html
+automacao_linkedin/metricas_dashboard_data*.json

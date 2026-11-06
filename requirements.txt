@@ -1,0 +1,5 @@
+customtkinter==6.0.0
+playwright==1.62.0
+openai==2.54.0
+psycopg[binary]==3.3.8
+python-dotenv==1.2.4

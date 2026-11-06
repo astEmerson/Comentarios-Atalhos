@@ -1,0 +1,12 @@
+CONFIG_BASE = {
+    # Funcoes ativas do modo:
+    "ENVIAR_MENSAGEM_PERFIL_ATIVO": True,
+    "TENTAR_CONECTAR_COM_NOTA_SEM_MENSAGEM": True,
+
+    # Limites e tempos do modo:
+    "MAX_ENVIO_PERFIL_POR_RODADA": 0,
+    "MAX_RESPOSTAS_POR_RODADA": 0,
+    "RODADAS_VAZIAS_PARA_ENCERRAR": 3,
+    "INTERVALO_MIN_SEGUNDOS": 0,
+    "INTERVALO_MAX_SEGUNDOS": 0,
+}
